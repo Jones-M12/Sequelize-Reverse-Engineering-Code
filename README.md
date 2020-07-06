@@ -42,6 +42,9 @@ style.css
 |                   to have access to the apllication, email and password conditions. Moreover, it confirms
 |                   the existence of a user and assists with directing the route path accordingly.
 │ 
+│ 
+│ 
+│ 
 ├── models--> 📂 Folder contains dependencies that are used to create Sequelize tables.
 |   |
 │   ├── index.js
@@ -51,6 +54,9 @@ style.css
 │          └──> ## Sequelize Model that represents a table.
 |                  Note: Sequelize creates the table for us.
 |                        Sequelize default, it will aito create a primary ID for each entry. Built in feature.
+│
+│
+│
 │
 ├── public--> 📂 Folder handles all clients side code.
 |   |
@@ -72,13 +78,19 @@ style.css
 |   |
 │   ├── stylesheets
 |   |     └── style.css
-|   |            └──> ## Handles page styling, the visual display seen by the client. If you still don't understand styling,
-|   |                   check out [HTML & CSS Crash Course](https://scrimba.com/course/ghtmlcss)
+|   |            └──> ## Handles page styling, the visual display seen by the client.
 |   |
 |   ├── login.html
+|   |       └──> ## markup language document for the login page display, suppoprted by the stylesheet and corresponding JS file.
+|   |
 |   ├── members.html
+|   |       └──> ## markup language document for the member page display, suppoprted by the stylesheet and corresponding JS file.
+|   |
 │   └── signup.html
-|
+|          └──> ## markup language document for the sign up page display, suppoprted by the stylesheet and corresponding JS file.
+|  
+|  
+|  
 |
 ├── routes
 │   ├── api-routes.js
