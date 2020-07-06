@@ -95,18 +95,20 @@ You will see the file it setup is the same as the structure below:
 |  
 |  
 |
-├── routes--> 📂 Folder contains files that handle receiving request and performing operations needed and serving responses, 
-|   |               which may include JSON or HTML data.
+├── routes--> 📂 Folder contains files that handle receiving request and performing operations needed 
+|   |              and serving responses, which may include JSON or HTML data.
 |   |
 │   ├── api-routes.js
-|   |       └──> ## File offeres a set of routes for displaying and saving data to the database. It references dependencies to 
-|   |               the models and config folders. This supports interactions with Sequelize tables and verifying user authentication.
+|   |       └──> ## File offeres a set of routes for displaying and saving data to the database. It 
+|   |               references dependencies to the models and config folders.
+|   |               This supports interactions with Sequelize tables and verifying user authentication.
 |   |               This is where sever side GET & POST methods are used. 
 |   |
 │   └── html-routes.js
-│              └──> ## File offeres a set of routes for displaying and reading data from the database. It references dependencies to 
-|                 the corresponding HTML files and the config folder. Here, user input is verified using the middleware autentication. 
-|                  Based on user input, they redirected to the proper page.
+│              └──> ## File offeres a set of routes for displaying and reading data from the database. It 
+|                     references dependencies to the corresponding HTML files and the config folder.
+|                     Here, user input is verified using the middleware autentication. 
+|                     Based on user input, they redirected to the proper page.
 |   
 |   
 |   
@@ -116,9 +118,10 @@ You will see the file it setup is the same as the structure below:
 │
 |   
 └──server.js
-    └──> ## This is where the rest of the magic happens. Inside this file all the references to required dependencies are list. 
-            It references dependencies to the config folder, models folder, everything in the public folder, and the routes folder's. 
-            This is where the port setup, creation to express application, middle configuration, and routes dependencies requirements 
+    └──> ## This is where the rest of the magic happens. Inside this file all the references to required 
+            dependencies are list. It references dependencies to the config folder, models folder, 
+            everything in the public folder, and the routes folder's. This is where the port setup, 
+            creation to express application, middle configuration, and routes dependencies requirements 
             all take place in order to sync the database together to allow the application to function.
 ```
 
