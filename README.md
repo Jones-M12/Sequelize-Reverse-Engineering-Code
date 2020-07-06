@@ -167,6 +167,28 @@ Steps:
 
     ![Running 'node server.js'](./Asset/runcommand.png)
 
+6. Now, if you hover over the URL displaying in the terminal from step 5, notice it is clickable.
+
+    Click the link & it will open the apllication in the web browser. You can test it out and see how things work. You can start making changes once comfortable with how things are working.
+
+7. Depending on how you want to design your application, you would create models in the models 📂 that will represent the tables that will be in your database.
+
+8. Next, head to the public 📂---> Create any additional needed HTML pages that will correspond with you new tables or update the current members.html file.
+
+9. Create any corresponding JS file needed to suport the new HTML pages or the updated page. This is done in the public 📂, then navigate to the js 📂 and start create needed files within.
+
+10. For now, let's just update the members.html content. We can add in mark language to support a header, footer, a menu bar, and movie ticket search field.
+
+    Note: the movie data would be a table created inside the models folders. This allows a user to search for data that will include movie times, the prices, and location of the viewing.
+
+11. Style the members.html using the stylesheet, navigate to this 📂 to do so.
+
+12. Create a member-routes.js file within the routes 📂 to handle sever side interactions to the database that are assoicated with content on the members.html. 
+
+    Note: This would inclide dependencies to the models folder and routes for displaying data.
+                                                                                                                    
+                                                                                                                          
+
 ## Contact Information
 
 * Github: [Jones-M12](https://github.com/Jones-M12) 
