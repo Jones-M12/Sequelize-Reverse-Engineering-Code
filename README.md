@@ -45,8 +45,11 @@ style.css
 ├── models--> ## Folder contains dependencies that are used to create Sequelize tables.
 |   |
 │   ├── index.js
+|   |       └──> ## provides the ability to allow all models within the models folders to be references when needed.
 │   └── user.js
-│
+│          └──> ## Sequelize Model that represents a table.
+|                  Note: Sequelize creates the table for us.
+|                        Sequelize default, it will aito create a primary ID for each entry. Built in feature.
 │
 ├── public
 │   ├── js
