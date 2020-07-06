@@ -165,7 +165,7 @@ Steps:
 
     Should get a similar response after running the command:
 
-    ![Running 'node server.js'](./asset/runcommand.png)
+    ![Running 'node server.js'](./Asset/runcommand.png)
 
 ## Contact Information
 
