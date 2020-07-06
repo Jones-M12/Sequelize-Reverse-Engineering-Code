@@ -147,13 +147,13 @@ Steps:
                                         This information needs to match the credentials of the database you are using. 
                                         In this case MySQL Workbench is being used. Look at the MySQL Connections section.
 
-a. username- Should be set to root. If not, change to your username for MySQL
+        a. username- Should be set to root. If not, change to your username for MySQL
 
-b. database- The name of the databse was written in the schema file, input that name here too.
+        b. database- The name of the databse was written in the schema file, input that name here too.
 
-c. host- This should be the same, update it if not.
+        c. host- This should be the same, update it if not.
 
-d. dialect- reference to the database being using, which is MySQL in this case. Writting it in lowercase letters.
+        d. dialect- reference to the database being using, which is MySQL in this case. Writting it in lowercase letters.
 
 ## Contact Information
 
