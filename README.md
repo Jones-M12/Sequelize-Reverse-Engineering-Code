@@ -47,8 +47,9 @@ You will see the file it setup is the same as the structure below:
 │   └── user.js
 │          └──> ## Sequelize Model that represents a table.
 |                  Note: Sequelize creates the table for us.
-|                        Sequelize default, it will aito create a primary ID for each entry. Built in feature.
-│
+|                        Sequelize default, it will auto create a primary ID for each entry, a
+|                        built in feature.
+│                         
 │
 │
 │
