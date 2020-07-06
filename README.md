@@ -37,8 +37,8 @@ style.css
 |   |       └──> ## Initiates the connection to MySQL
 |   |
 │   └── passport.js
-|           └──> ## Used to support confriguation and managing request for things like HTTP request for getting information and serving 
-|                   webpages related to an account. It defines the paramters the user must provide in order 
+|           └──> ## Used to support confriguation and managing request for things like HTTP request for getting information
+|                   and serving webpages related to an account. It defines the paramters the user must provide in order 
 |                   to have access to the apllication, email and password conditions. Moreover, it confirms
 |                   the existence of a user and assists with directing the route path accordingly.
 │ 
