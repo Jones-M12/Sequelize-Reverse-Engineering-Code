@@ -153,7 +153,13 @@ Steps:
 
         c. host- This should be the same, update it if not.
 
-        d. dialect- reference to the database being using, which is MySQL in this case. Writting it in lowercase letters.
+        d. dialect- reference to the database being using, which is MySQL in this case. Writting it in lowercase letters. 
+
+4. Open MySQL Workbench. Select file --> hit new query tab. Inside this tab, hit the 📂 icon, find the path to the schema file for this project. 
+
+    Select the file, hit open, and it will import into the query tab. Now hit the ⚡ lightning bolt icon, the one next to the 💾 flooppy disk icon.
+
+    This will create the database in MySQL, which suppoers the connection to Squelize in order to get the application functioning.
 
 ## Contact Information
 
