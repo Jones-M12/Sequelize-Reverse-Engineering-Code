@@ -24,7 +24,8 @@ You will see the file it setup similiar to the structure below:
 style.css
 ```
 .
-├── config--## folder contains configuration settings and middleware compotents that interact with the application to support verification metrics and route path direction
+├── config--> ## Folder contains configuration settings and middleware compotents that interact with the 
+|   |              application to support verification metrics and route path direction.
 |   |
 |   ├── middleware
 |   |        └── isAuthenticated.js
@@ -41,7 +42,7 @@ style.css
 |                   to have access to the apllication, email and password conditions. Moreover, it confirms
 |                   the existence of a user and assists with directing the route path accordingly.
 │ 
-├── models--> ## this folder contains dependencies that are used to create Sequelize tables.
+├── models--> ## Folder contains dependencies that are used to create Sequelize tables.
 |   |
 │   ├── index.js
 │   └── user.js
