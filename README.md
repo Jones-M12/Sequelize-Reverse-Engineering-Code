@@ -125,7 +125,31 @@ You will see the file it setup is the same as the structure below:
             all take place in order to sync the database together to allow the application to function.
 ```
 
+## How to Add Changes
 
+Steps:
+
+1. run 'nmp install' -- creates package.lock.json
+                            └──> this file keep track of all packages you have installed and the specific version.
+
+2. Create a schema file or create a database 📂 with a schema file inside.
+
+    Copy and paste the lines below into the schema file.
+
+        DROP DATABASE IF EXISTS `insert the name of you database here`;
+        CREATE DATABASE `insert the name of you database here`;
+
+    Next, replace only the text, entering the name of you database.
+
+3. Navigate to the 📂 config
+                         └──> config.json
+                                    └──> Inside this file, the development object properties need to be changed.
+                                        This information needs to match the credentials of the database you are using. 
+                                        In this case MySQL Workbench is being used. Look at the MySQL Connections section.
+                                        a. username- Should be set to root. If not, change to your username for MySQL
+                                        b. database- The name of the databse was written in the schema file, input that name here too.
+                                        c. host- This should be the same, update it if not.
+                                        d. dialect- reference to the database being using, which is MySQL in this case. Writting it in lowercase letters.
 ## Contact Information
 
 * Github: [Jones-M12](https://github.com/Jones-M12) 
