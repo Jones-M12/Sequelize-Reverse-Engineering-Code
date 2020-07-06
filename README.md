@@ -116,9 +116,9 @@ style.css
 |   
 └──server.js
     └──> ## This is where the rest of the magic happens. Inside this file all the references to required dependencies are list. 
-            It references dependencies to the config folder, models folder, everything in the public folder, and the routes folder's. This is
-            where the port setup, creation to express application, middle configuration, and routes dependencies requirements all take place
-            in order to sync the database together to allow the application to function.
+            It references dependencies to the config folder, models folder, everything in the public folder, and the routes folder's. 
+            This is where the port setup, creation to express application, middle configuration, and routes dependencies requirements 
+            all take place in order to sync the database together to allow the application to function.
 ```
 
 
