@@ -25,11 +25,12 @@ style.css
 ```
 .
 ├── config
+|   |
 |   ├── middleware
 |   |        └── isAuthenticated.js
-|   |
+|   |               └──> This file is used to direct the path of the user. If the use wishes to reached the member page they must be logged in or else they will be restricted from doing so |   |                     and wlll be directed to the login page.
 │   ├── config.json
-|   |
+|   |       └──> ### Initiates the connection to MySQL..mmmm
 │   └── passport.js
 |
 │ 
