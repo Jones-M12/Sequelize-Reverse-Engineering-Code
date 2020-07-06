@@ -1,19 +1,14 @@
 # Notes Application
 
-[![Generic badge](https://img.shields.io/badge/VERSION-1.1.0-PINK.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Code-Overview-Tutorial-1.1.0-RED.svg)](https://shields.io/)
 
-[Repo: Notes Application](https://github.com/Jones-M12/Notes-Application-Jones)
-
-[Deployed Site: Notes Application Jones](https://notes-application-jones.herokuapp.com/)
+[Repo: Sequelize-Reverse-Engineering-Code](https://github.com/Jones-M12/Sequelize-Reverse-Engineering-Code)
 
 
-## Overview
+## Purpose
 
-This application was designed to allow a user to utilize an online notes application for writing, saving and deleting notes. 
-
-It allows a user to move away from hand written notes that can be lost or easily damaged.
-
-A user can better organize ideas without forgetting or being unable to recall.
+This document explains the overall structure of the Sequelize Passport code. A code structure is provided, and within the structure a breakdown of each file is explained.
+IT is very helpful to undertstand how different folders and files work together to produce a working application.
 
 ## Code Overview
 
