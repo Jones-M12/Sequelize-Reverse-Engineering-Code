@@ -46,6 +46,7 @@ style.css
 |   |
 │   ├── index.js
 |   |       └──> ## provides the ability to allow all models within the models folders to be references when needed.
+|   |
 │   └── user.js
 │          └──> ## Sequelize Model that represents a table.
 |                  Note: Sequelize creates the table for us.
