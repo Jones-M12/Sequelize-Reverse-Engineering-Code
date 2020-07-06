@@ -92,16 +92,27 @@ style.css
 |  
 |  
 |
-├── routes
+├── routes--> 📂 Folder contains files that handle receiving request and performing operations needed and serving responses, 
+|   |               which may include JSON or HTML data.
+|   |
 │   ├── api-routes.js
+|   |       └──> ## File offeres a set of routes for displaying and saving data to the database. It references dependencies to 
+|   |               the models and config folders. This supports interactions with Sequelize tables and verifying user authentication.
+|   |               This is where sever side GET & POST methods are used. 
+|   |
 │   └── html-routes.js
-│
-|
+│              └──> ## File offeres a set of routes for displaying and reading data from the database. It references dependencies to 
+|                 the corresponding HTML files and the config folder. Here, user input is verified using the middleware autentication. 
+|                  Based on user input, they redirected to the proper page.
+|   
+|   
+|   
 ├── package.json
-|   
+|       └──> ## file used to store all the dependencies that are assoicated with and used for the project.
 │
+|   
 └──server.js
-
+    └──> ##
 ```
 
 
