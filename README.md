@@ -1,6 +1,6 @@
 # Sequelize Reverse Engineering Code tutorial
 
-[![Generic badge](https://img.shields.io/badge/Tutorial-1.1.0-RED.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Tutorial-1.0-RED.svg)](https://shields.io/)
 
 [Repo: Sequelize-Reverse-Engineering-Code](https://github.com/Jones-M12/Sequelize-Reverse-Engineering-Code)
 
@@ -159,7 +159,13 @@ Steps:
 
     Select the file, hit open, and it will import into the query tab. Now hit the ⚡ lightning bolt icon, the one next to the 💾 flooppy disk icon.
 
-    This will create the database in MySQL, which suppoers the connection to Squelize in order to get the application functioning.
+    This will create the database in MySQL, which supports the connection to Sequelize in order to get the application functioning.
+
+5. Now, in VS Code, open a terminal, navigate into the root folder, and run 'node server.js'. 
+
+    Should get a similar response after running the command:
+
+    ![Running 'node server.js'](./asset/runcommand.png)
 
 ## Contact Information
 
