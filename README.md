@@ -24,7 +24,7 @@ You will see the file it setup similiar to the structure below:
 style.css
 ```
 .
-├── config--> ## Folder contains configuration settings and middleware compotents that interact with the 
+├── config--> # Folder contains configuration settings and middleware compotents that interact with the 
 |   |              application to support verification metrics and route path direction.
 |   |
 |   ├── middleware
@@ -42,7 +42,7 @@ style.css
 |                   to have access to the apllication, email and password conditions. Moreover, it confirms
 |                   the existence of a user and assists with directing the route path accordingly.
 │ 
-├── models--> ## Folder contains dependencies that are used to create Sequelize tables.
+├── models--> # Folder contains dependencies that are used to create Sequelize tables.
 |   |
 │   ├── index.js
 |   |       └──> ## provides the ability to allow all models within the models folders to be references when needed.
@@ -52,10 +52,20 @@ style.css
 |                  Note: Sequelize creates the table for us.
 |                        Sequelize default, it will aito create a primary ID for each entry. Built in feature.
 │
-├── public
-│   ├── js
+├── public--> # Folder handles all clients side code.
+|   |
+│   ├── js--> ## Folder handles the user interface interactions that process input to be used in conjuction with the server
+|   |    |        to handle request.
+|   |    |
 |   |    ├── login.js
+|   |    |      └──> ## Contains reference to dependencies that handle on click events for login, verifying account exist 
+|   |    |              with email and password match. If correct, redirects user to the member page.
+|   |    |
 |   |    ├── members.js
+|   |    |      └──> ## Verifies which user is logged in on based on the accouting formation that used to login, displaying 
+|   |    |              the user welcome message or speicifc information relate to that user.
+
+
 |   |    └── signup.js
 |   |
 |   |
