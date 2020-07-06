@@ -64,8 +64,7 @@ style.css
 |   |    ├── members.js
 |   |    |      └──> ## Verifies which user is logged in on based on the accouting formation that used to login, displaying 
 |   |    |              the user welcome message or speicifc information relate to that user.
-
-
+|   |    |              
 |   |    └── signup.js
 |   |
 |   |
