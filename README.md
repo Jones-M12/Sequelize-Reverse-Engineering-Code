@@ -65,16 +65,18 @@ style.css
 |   |    |
 |   |    ├── login.js
 |   |    |      └──> ## Contains reference to dependencies that handle on click events for login, verifying account exist 
-|   |    |              with email and password match. If correct, redirects user to the member page.
+|   |    |              with email and password match. If correct, redirects user to the member page. Also is dependent on 
+|   |    |              the corresponding HTML file.
 |   |    |
 |   |    ├── members.js
 |   |    |      └──> ## Verifies which user is logged in on based on the accouting formation that used to login, displaying 
-|   |    |              the user welcome message or speicifc information relate to that user.
+|   |    |              the user welcome message or speicifc information relate to that user. Also is dependent on the 
+|   |    |              corresponding HTML file.
 |   |    |              
 |   |    └── signup.js
 |   |           └──> ## Contains reference to dependencies that handle on click events for signing, verifying account does not
 |   |                exist already. Successful sign up will redirects user to the member page. Else, user will be redirected to
-|   |                the login page.
+|   |                the login page. Also is dependent on the corresponding HTML file.
 |   |
 │   ├── stylesheets
 |   |     └── style.css
@@ -110,9 +112,13 @@ style.css
 ├── package.json
 |       └──> ## file used to store all the dependencies that are assoicated with and used for the project.
 │
+│
 |   
 └──server.js
-    └──> ##
+    └──> ## This is where the rest of the magic happens. Inside this file all the references to required dependencies are list. 
+            It references dependencies to the config folder, models folder, everything in the public folder, and the routes folder's. This is
+            where the port setup, creation to express application, middle configuration, and routes dependencies requirements all take place
+            in order to sync the database together to allow the application to function.
 ```
 
 
