@@ -66,11 +66,13 @@ style.css
 |   |    |              the user welcome message or speicifc information relate to that user.
 |   |    |              
 |   |    └── signup.js
-|   |
+|   |           └──> ## Contains reference to dependencies that handle on click events for signing, verifying account does not
+|   |                exist already. Successful sign up will redirects user to the member page. Else, user will be redirected to
+|   |                the login page.
 |   |
 │   ├── stylesheets
 |   |     └── style.css
-|   |
+|   |            └──> ## Handles page styling, the visual display seen by the client. 
 |   |
 |   ├── login.html
 |   ├── members.html
