@@ -24,7 +24,7 @@ You will see the file it setup similiar to the structure below:
 style.css
 ```
 .
-├── config
+├── config--## folder contains configuration settings and middleware compotents that interact with the application to support verification metrics and route path direction
 |   |
 |   ├── middleware
 |   |        └── isAuthenticated.js
@@ -34,10 +34,15 @@ style.css
 |   |
 │   ├── config.json
 |   |       └──> ## Initiates the connection to MySQL
+|   |
 │   └── passport.js
-|
+|           └──> ## Used to support confriguation and managing request for things like HTTP request for getting information and serving 
+|                   webpages related to an account. It defines the paramters the user must provide in order 
+|                   to have access to the apllication, email and password conditions. Moreover, it confirms
+|                   the existence of a user and assists with directing the route path accordingly.
 │ 
-├── models
+├── models--> ## this folder contains dependencies that are used to create Sequelize tables.
+|   |
 │   ├── index.js
 │   └── user.js
 │
