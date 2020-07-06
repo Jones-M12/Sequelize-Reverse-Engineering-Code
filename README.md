@@ -1,6 +1,6 @@
-# Notes Application
+# Sequelize Reverse Engineering Code tutorial
 
-[![Generic badge](https://img.shields.io/badge/Code-Overview-Tutorial-1.1.0-RED.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Tutorial-1.1.0-RED.svg)](https://shields.io/)
 
 [Repo: Sequelize-Reverse-Engineering-Code](https://github.com/Jones-M12/Sequelize-Reverse-Engineering-Code)
 
@@ -55,36 +55,42 @@ You will see the file it setup is the same as the structure below:
 │
 ├── public--> 📂 Folder handles all clients side code.
 |   |
-│   ├── js--> # Folder handles the user interface interactions that process input to be used in conjuction with the server
+│   ├── js--> # Folder handles the user interface interactions that process input to be used in
 |   |    |       conjuction with the server to handle request.
 |   |    |
 |   |    ├── login.js
-|   |    |      └──> ## Contains reference to dependencies that handle on click events for login, verifying account exist 
-|   |    |              with email and password match. If correct, redirects user to the member page. Also is dependent on 
+|   |    |      └──> ## Contains reference to dependencies that handle on click events for login, 
+|   |    |              verifying account exist with email and password match.
+|   |    |              If correct, redirects user to the member page. Also is dependent on 
 |   |    |              the corresponding HTML file.
 |   |    |
 |   |    ├── members.js
-|   |    |      └──> ## Verifies which user is logged in on based on the accouting formation that used to login, displaying 
-|   |    |              the user welcome message or speicifc information relate to that user. Also is dependent on the 
-|   |    |              corresponding HTML file.
+|   |    |      └──> ## Verifies which user is logged in on based on the accouting formation that
+|   |    |               used to login, displaying the user welcome message or speicifc 
+|   |    |               information relate to that user. Also is dependent on the 
+|   |    |                corresponding HTML file.
 |   |    |              
 |   |    └── signup.js
-|   |           └──> ## Contains reference to dependencies that handle on click events for signing, verifying account does not
-|   |                exist already. Successful sign up will redirects user to the member page. Else, user will be redirected to
-|   |                the login page. Also is dependent on the corresponding HTML file.
+|   |           └──> ## Contains reference to dependencies that handle on click events for signing, 
+|   |                   verifying account does not exist already. Successful sign up will redirect a 
+|   |                   user to the member page. Else, user will be redirected to
+|   |                   the login page. Also is dependent on the corresponding HTML file.
 |   |
 │   ├── stylesheets
 |   |     └── style.css
 |   |            └──> ## Handles page styling, the visual display seen by the client.
 |   |
 |   ├── login.html
-|   |       └──> ## markup language document for the login page display, suppoprted by the stylesheet and corresponding JS file.
+|   |       └──> ## markup language document for the login page display, 
+|   |               suppoprted by the stylesheet and corresponding JS file.
 |   |
 |   ├── members.html
-|   |       └──> ## markup language document for the member page display, suppoprted by the stylesheet and corresponding JS file.
+|   |       └──> ## markup language document for the member page display, 
+|   |               suppoprted by the stylesheet and corresponding JS file.
 |   |
 │   └── signup.html
-|          └──> ## markup language document for the sign up page display, suppoprted by the stylesheet and corresponding JS file.
+|          └──> ## markup language document for the sign up page display, 
+|                  suppoprted by the stylesheet and corresponding JS file.
 |  
 |  
 |  
