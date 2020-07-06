@@ -12,11 +12,8 @@ IT is very helpful to undertstand how different folders and files work together 
 
 ## Code Overview
 
-I have designed this project from start to finish, gaining a better understanding of the importance of file stuctures, how they are connected, and how they cna help with organization.
+You will see the file it setup is the same as the structure below:
 
-You will see the file it setup similiar to the structure below:
-
-style.css
 ```
 .
 ├── config--> 📂 Folder contains configuration settings and middleware compotents that interact with the 
@@ -24,18 +21,19 @@ style.css
 |   |
 |   ├── middleware
 |   |        └── isAuthenticated.js
-|   |               └──> ## This file is used to direct the path of the user. If the use wishes to reached the 
-|   |                        member page they must be logged in or else they will be restricted from doing so                     
-|   |                        and wlll be directed to the login page.
+|   |               └──> ## This file is used to direct the path of the user. If the use wishes to reached
+|   |                       the member page they must be logged in or else they will be restricted from 
+|   |                       doing so and wlll be directed to the login page.
 |   |
 │   ├── config.json
 |   |       └──> ## Initiates the connection to MySQL
 |   |
 │   └── passport.js
-|           └──> ## Used to support confriguation and managing request for things like HTTP request for getting information
-|                   and serving webpages related to an account. It defines the paramters the user must provide in order 
-|                   to have access to the apllication, email and password conditions. Moreover, it confirms
-|                   the existence of a user and assists with directing the route path accordingly.
+|           └──> ## Used to support confriguation and managing request for things like HTTP request for 
+|                   getting informationand serving webpages related to an account. It defines the 
+|                   paramters the user must provide in order to have access to the apllication, email 
+|                   and password conditions. Moreover, it confirms the existence of a user and assists 
+|                   with directing the route path accordingly.
 │ 
 │ 
 │ 
@@ -43,8 +41,9 @@ style.css
 ├── models--> 📂 Folder contains dependencies that are used to create Sequelize tables.
 |   |
 │   ├── index.js
-|   |       └──> ## provides the ability to allow all models within the models folders to be references when needed.
-|   |
+|   |       └──> ## provides the ability to allow all models within the models folders to be references 
+|   |               when needed.   
+|   |               
 │   └── user.js
 │          └──> ## Sequelize Model that represents a table.
 |                  Note: Sequelize creates the table for us.
@@ -56,7 +55,7 @@ style.css
 ├── public--> 📂 Folder handles all clients side code.
 |   |
 │   ├── js--> # Folder handles the user interface interactions that process input to be used in conjuction with the server
-|   |    |        to handle request.
+|   |    |       conjuction with the server to handle request.
 |   |    |
 |   |    ├── login.js
 |   |    |      └──> ## Contains reference to dependencies that handle on click events for login, verifying account exist 
