@@ -24,7 +24,7 @@ You will see the file it setup similiar to the structure below:
 style.css
 ```
 .
-├── config--> # Folder contains configuration settings and middleware compotents that interact with the 
+├── config--> :file_folder: Folder contains configuration settings and middleware compotents that interact with the 
 |   |              application to support verification metrics and route path direction.
 |   |
 |   ├── middleware
