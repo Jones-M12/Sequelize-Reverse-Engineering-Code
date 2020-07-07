@@ -187,7 +187,7 @@ Steps:
 
     Note: This would inclide dependencies to the models folder and routes for displaying data.
                                                                                                                     
-13. I think you got it from here. Good luck! Don't forget to save and the power of Google Fu! 😉
+13. I think you got it from here. Good luck! Don't forget to save and remember the power of Google Fu! 😉
                                                                                                            
 
 ## Contact Information
