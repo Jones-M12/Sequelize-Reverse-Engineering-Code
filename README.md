@@ -183,9 +183,10 @@ Steps:
 
 11. Style the members.html using the stylesheet, navigate to this 📂 to do so.
 
-12. Create a member-routes.js file within the routes 📂 to handle sever side interactions to the database that are assoicated with content on the members.html. 
+12. Create a members-routes.js file within the routes 📂 to handle sever side interactions to the database that are assoicated with content on the members.html. 
 
     Note: This would inclide dependencies to the models folder and routes for displaying data.
+          Add this new route into the server.js
                                                                                                                     
 13. I think you got it from here. Good luck! Don't forget to save and remember the power of Google Fu! 😉
                                                                                                            
